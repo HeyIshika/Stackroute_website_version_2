@@ -1,0 +1,292 @@
+
+.navbar{
+	 background-color: black;
+}
+
+
+
+
+
+.navbar-brand img{
+
+	height :150px;
+	
+}
+.navbar-form{
+  width:300px;
+}
+.navbar-form input{
+  width:150px;
+  height:20px;
+}
+
+
+.navbar-nav{
+	background-color:black;
+	position:relative;
+	top:100px;
+}
+.navbar-nav li a{
+	color:orange;
+    font-size:20px;
+
+}
+.navbar-nav li a:hover{
+	background-color: orange;
+	color:black;
+}
+body{
+	background-color:black;
+}
+#myCarousel {
+    margin-top:160px;
+}
+
+
+#myCarousel .item{height:400px;}
+
+#slide1{
+   background:url('../../images/cake_medium.jpg') ;
+   background-repeat: no-repeat;
+   background-position: top center;
+   
+}
+#slide2{
+   background:url('../../images/pastry_medium.jpg') ;
+   background-repeat: no-repeat;
+   background-position: top center;
+   
+}
+
+#slide3{
+   background:url('../../images/blackBoard_medium.jpg') ;
+   background-repeat: no-repeat;
+   background-position: top center;
+   
+}
+#slide4{
+   background:url('../../images/coffee_medium.jpg') ;
+   background-repeat: no-repeat;
+   background-position: top center;
+  
+}
+#slide1 .carousel-caption{
+	color:black;
+	font-family:comic;
+	margin-left:-800px;
+}
+#slide2 .carousel-caption{
+	font-family:comic;
+	margin-right:-800px;
+}
+#slide3 .carousel-caption{
+	font-family: comic;
+	margin-bottom:300px;
+}
+
+@media (max-width: 768px) {
+   #myCarousel .item{height:300px;}
+
+#slide1{
+   background:url('../../images/cake_small.jpg') ;
+   background-repeat: no-repeat;
+   background-position: top center;
+}
+#slide2{
+   background:url('../../images/pastry_small.jpg') ;
+   background-repeat: no-repeat;
+   background-position: top center;
+}
+
+#slide3{
+   background:url('../../images/blackBoard_small.jpg') ;
+   background-repeat: no-repeat;
+   background-position: top center;
+}
+#slide4{
+   background:url('../../images/coffee_small.jpg') ;
+   background-repeat: no-repeat;
+   background-position: top center;
+}
+
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+   #myCarousel .item{height:500px;}
+
+#slide1{
+   background:url('../../images/cake_large.jpg');
+   background-repeat: no-repeat;
+   background-position: top center;
+}
+#slide2{
+   background:url('../../images/pastry_large.jpg');
+   background-repeat: no-repeat;
+   background-position: top center;
+}
+#slide3{
+   background:url('../../images/blackBoard_large.jpg');
+   background-repeat: no-repeat;
+   background-position: top center;
+}
+#slide4{
+   background:url('../../images/coffee_large.jpg');
+   background-repeat: no-repeat;
+   background-position: top center;
+}
+
+	
+}
+
+#bigCallout{
+	margin-top: 20px;
+
+
+}
+
+#bigCallout .well{
+	background-color:black;
+	border :1px solid black;
+}
+
+#bigCallout blockquote{
+    font-family: cursive;
+    text-align: center;
+    color:orange;
+    }
+
+  #heading{
+  	text-align:center;
+  	font-family:lucida calligraphy;
+  	color:orange;
+  }
+  #heading h2{
+  	font-family:lucida calligraphy;
+
+  }
+
+  #callout1{
+
+  	padding-top:40px;
+  }
+
+  #callout1 img{
+    
+    position:relative;
+    border:10px solid orange;
+
+  }
+  #callout1 h3{
+    position:relative;
+    right:50px;
+  	font-family:comic;
+  	color:#e3e3e3;
+    border-bottom:1px solid brown;
+  	
+  }
+
+  #callout1 p{
+    position:relative;
+    top:50px;
+    right:50px;
+    font-family:lucida calligraphy;
+    color:#e3e3e3;
+
+
+  }
+   #callout2{
+
+  	padding-top:50px;
+  }
+
+  #callout2 h3{
+  	text-align:center;
+  	font-family:comic;
+  	color:#e3e3e3;
+  	margin-top:100px;
+  }
+
+   #callout2 img{
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+     border:10px solid brown;
+
+  }
+
+  #moreOptions{
+    margin-top: 50px;
+  }
+
+
+.panel{
+	background-color: black;
+	text-align: center;
+	color:orange;
+	border:1px solid black;
+}
+.panel img{
+	border-radius: 25px;
+}
+
+
+footer{
+  background-color: black;
+  float:bottom;
+  position:absolute;
+  width :100%;
+  height:220px;
+
+}
+form{
+  width:200px;
+  margin-left:50px;
+  color:grey;
+  border-radius: 1px solid black;
+}
+#first{
+	color:#e3e3e3;
+
+}
+#first ul{
+	list-style-type: none;
+}
+
+
+
+#first li a{
+	color:#e3e3e3;
+	text-decoration-style: none;
+}
+#first li a:hover{
+	background-color: black;
+	color:orange;
+
+}
+
+#second{
+	margin-top: 55px;
+
+}
+#second ul{
+	list-style-type: none;
+}
+
+
+
+#second li a{
+	color:#e3e3e3;
+	text-decoration-style: none;
+}
+#second li a:hover{
+	background-color: black;
+	color:orange;
+
+
+}
+#bottomline{
+	padding: 50px 30px;
+}
