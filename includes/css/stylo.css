@@ -2,11 +2,6 @@
 .navbar{
 	 background-color: black;
 }
-
-
-
-
-
 .navbar-brand img{
 
 	height :150px;
@@ -19,8 +14,6 @@
   width:150px;
   height:20px;
 }
-
-
 .navbar-nav{
 	background-color:black;
 	position:relative;
@@ -170,12 +163,12 @@ body{
 
   #callout1{
 
-  	padding-top:40px;
+  	
   }
 
   #callout1 img{
-    
-    position:relative;
+    margin-top:40px;
+    align-items: center;
     border:10px solid orange;
 
   }
@@ -191,32 +184,12 @@ body{
   #callout1 p{
     position:relative;
     top:50px;
-    right:50px;
     font-family:lucida calligraphy;
     color:#e3e3e3;
 
 
   }
-   #callout2{
-
-  	padding-top:50px;
-  }
-
-  #callout2 h3{
-  	text-align:center;
-  	font-family:comic;
-  	color:#e3e3e3;
-  	margin-top:100px;
-  }
-
-   #callout2 img{
-    -ms-transform: rotate(7deg); /* IE 9 */
-    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-    transform: rotate(7deg);
-     border:10px solid brown;
-
-  }
-
+   
   #moreOptions{
     margin-top: 50px;
   }
