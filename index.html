@@ -21,6 +21,11 @@
 		
 		<!-- Include Modernizr in the head, before any other Javascript -->
 		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+         <script src="includes/js/jsCode.js"></script>
+
+		
+
 		
 	</head>
 	<body>
@@ -138,7 +143,7 @@
 					<div class="item active" id="slide1">
 
 					    <div class="carousel-caption">
-							<h2><strong>We Bake with Love</strong></h2>
+							
 							
 						</div><!-- end carousel-caption-->
 					   
@@ -147,7 +152,7 @@
 					<div class="item " id="slide2">
 
 					   <div class="carousel-caption">
-							<h2><strong>We Eat with Love</strong></h2>
+							
 							
 						</div><!-- end carousel-caption-->
 					   
@@ -156,7 +161,7 @@
 					<div class="item" id="slide3">
 
 					    <div class="carousel-caption">
-							<h2><strong>See! The choices!</strong></h2>
+							
 							
 						</div><!-- end carousel-caption-->
 					  
@@ -282,23 +287,31 @@
 
     <footer>
       <div class="container">
-         <div class="row">
+   
            <div class="col-sm-4">
-             <form action="" method="get">
-                <p><h2>Newsletter</h2>
-                <label>Name:   </label>
-                <input />
-                </p>
-                <p>
-                <label>EmailID:</label>
-                <input /><br>
-                </p>
-                <p>
-                <input type="submit" name="">
-                </p>
-             </form>
-           </div><!--end col-sm-4-->
-           <div class="col-sm-2" id="first">
+            <form  name="myForm" action="/action_page.php" onSubmit="return validateForm()" method="post">
+      
+                <p><h2>Newsletter</h2></p>
+                
+                 <label><b>Email</b></label>
+                 <input type="text" placeholder="Enter Email" name="email">
+
+                 <label><b>Password</b></label>
+                 <input type="password" placeholder="Enter Password" name="psw">
+
+                 <label><b>Confirm Password</b></label>
+                 <input type="password" placeholder="Confirm Password" name="psw-repeat">
+                 <input type="checkbox" checked="checked"> Remember me
+                 <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+                 <div class="clearfix">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                 </div>
+ 
+              </form>
+              </div>
+             <div class="col-sm-2" id="first">
 						<h3>Corporate Info</h3>
 						<ul>
 							<li><a href="#">Community</a></li>
@@ -355,7 +368,7 @@
 
 
 			</div>
-          </div>
+          
       </div>
 		
 		
@@ -374,7 +387,6 @@
 	
 	<!-- Custom JS -->
 	<script src="includes/js/script.js"></script> 
-
 
 
 
